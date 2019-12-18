@@ -33,7 +33,7 @@
       file;  
     }
       {[csv/ofx////]}
-return update.file{
+return update.file{ upload:[]
     System.Windows.Forms.MessageBox.Show("query");
 }
 {
