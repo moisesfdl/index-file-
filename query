@@ -1,0 +1,126 @@
+{
+    //using (update.file) bank
+    {
+        lanch update.file;
+    } de programa pra banco
+    [System.UpdateFile]
+    public class using (update.file)
+    {
+        
+    }.Exception : System.Exception
+    {
+        public using (update.file)
+        {
+            
+        }.Exception() { }
+        public using (update.file)
+        {
+            
+        }.Exception(string message) : base(message) { }
+        public using (update.file)
+        {
+            
+        }.Exception(string message, System.Exception inner) : base(message, inner) { }
+        protected using (update.file)
+        {
+            
+        }.Exception(
+            System.Runtime.Serialization.SerializationInfo info,
+            System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
+    }
+    foreach (var item in file)
+    {
+      file;  
+    }
+      {[csv/ofx////]}
+return update.file{
+    System.Windows.Forms.MessageBox.Show("query");
+}
+{
+public file.query Iterator file.query 
+{
+    get
+    {
+        return new file.query Iterator(this);
+    }
+}
+
+public class file.query Iterator
+{
+    readonly ClassName outer;
+    
+    internal file.query Iterator(ClassName outer)
+    {
+        this.outer = outer;
+        this public item.file Iterator item.file 
+        {
+            get
+            {
+                return new item.file Iterator(this);
+            }
+        }
+        
+        public class item.file Iterator
+        {
+            readonly ClassName outer;
+            
+            internal item.file Iterator(ClassName outer)
+            {
+                this.outer = outer;
+            }
+            
+            // TODO: provide an appropriate implementation here
+            public int Length { get { return 1; } }
+            
+            public ElementType this[int index]
+            {
+                get
+                {
+                    //
+                    // TODO: implement indexer here
+                    //
+                    // you have full access to ClassName privates
+                    //
+                    throw new System.NotImplementedException();
+                    return default(ElementType);
+                }
+            }
+            
+            public System.Collections.Generic.IEnumerator<ElementType> GetEnumerator()
+            {
+                for (int i = 0; i < this.Length; i++)
+                {
+                    yield return this[i];
+                }
+            }
+        }
+    }
+    
+    // TODO: provide an appropriate implementation here
+    public int Length { get { return 1; } }
+    
+    public ElementType this[int index]
+    {
+        get
+        {
+            //
+            // TODO: implement indexer here
+            //
+            // you have full access to ClassName privates
+            //
+            throw new System.NotImplementedException();
+            return default(ElementType);
+        }
+    }
+    
+    public System.Collections.Generic.IEnumerator<ElementType> GetEnumerator()
+    {
+        for (int i = 0; i < this.Length; i++)
+        {
+            yield return this[i];
+        }
+    }
+}
+}
+}
+}
